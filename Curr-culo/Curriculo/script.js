@@ -2,6 +2,7 @@ var urlAtual = window.location.href
 var urlClass = new URL(urlAtual)
 
 var nome = urlClass.searchParams.get("nome");
+var NascimentoTexto = urlClass.searchParams.get("nascimento");
 var sobre = urlClass.searchParams.get("sobre");
 var Informaçoes = urlClass.searchParams.get("Informaçoes");
 var ContatoTexto = urlClass.searchParams.get("site");
@@ -60,6 +61,14 @@ cima.appendChild(novoH5);
 
 // Adiciona o novo elemento h3 como um filho do elemento "Sobre Mim"
 novaTag.appendChild(novoH5);
+
+let novaTagH1 = criarTags('h1');
+novaTagH1.textContent = 'Data de Nascimento:';
+cima.appendChild(novaTagH1);
+
+let Nascimento = criarTags('h5')
+Nascimento.textContent = NascimentoTexto; 
+cima.appendChild(Nascimento);
 
 // Habilidades
 let novaTagH1 = criarTags('h1');
