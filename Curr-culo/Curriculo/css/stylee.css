@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: inline-block;
+    
+   
+}
+
+div{
+    display: inline-block;
+align-items: center;
+align-content: center;
+}
+.cima{
+    margin-left: 380px;
+    margin-right: 300px;
+}
+
+.title:nth-child(2){
+	font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+	text-align: center;
+}
+.titlep{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 110, 110);
+	text-align: center;
+}
+.texto{
+    background-image: linear-gradient(to right, #09e0aa, #057ddf);
+    height: 250px;
+    width: 1200px;
+    text-align: center;
+    margin-left: 350px;
+}
+.small {
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+}
+
+.formacao,h1:nth-child(10){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+h1:nth-child(8){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+h1:nth-child(6){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.cima,h1:nth-child(4){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.formacao,h1:nth-child(17){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.cima,h1:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.cima,h1:nth-child(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+ul:nth-child(5){
+    font-size: 18px;
+    font-weight: normal;
+    color: black; 
+}
+
+h5:nth-child(7) {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.cima,.ull:nth-child(9){
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+h2:nth-child(11) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+h3:nth-child(12) {
+    font-size: 18px;
+    font-weight: normal;
+    color: darkgrey;
+}
+
+h5:nth-child(13) {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+h2:nth-child(14) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+h3:nth-child(15) {
+    font-size: 18px;
+    font-weight: normal;
+    color: darkgrey;
+    
+}
+
+h5:nth-child(16) {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.formacao  h2:nth-child(18) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+h3:nth-child(19) {
+    font-size: 18px;
+    font-weight: normal;
+    color: darkgrey;
+}
+
+h5:nth-child(20) {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+h5:nth-child(21) {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.h5 p{
+   background-color: #057ddf00;
+}
+
+.formacao{
+    margin-left: -170px;
+}
+

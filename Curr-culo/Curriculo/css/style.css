@@ -1,0 +1,68 @@
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+	padding: 7px;
+	border: 1px solid #2285be;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+formulario, fieldset, textarea{
+	resize: none;
+}
+
+h1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #1e2022;
+	text-align: center;
+}
+
+formulario, legend{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #1e2022;
+	font-size: 18px;
+}
+
+formulario, fieldset{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	background-color: #2285be;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 7px;
+	cursor: pointer;
+	margin-left: 400px;
+	margin-top: 30px;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+}
+
+input[type="submit"]:hover {
+	background-color: #1b70a1;
+}
+
+input[type="submit"]:focus {
+	outline: none;
+}
+
+@media (min-width: 768px) {
+	form {
+		width: 60%;
+		justify-content: space-between;
+		margin-left: 410px;
+	}
+	fieldset {
+		flex: 1 0 30%;
+		margin-right: 20px;
+	}
+}
